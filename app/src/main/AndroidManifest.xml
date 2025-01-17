@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin.adminSetting"
+            android:exported="false" />
+        <activity
+            android:name=".admin.adminUnit"
+            android:exported="false" />
+        <activity
+            android:name=".admin.adminPayment"
+            android:exported="false" />
+        <activity
+            android:name=".admin.adminMaintenance"
+            android:exported="false" />
+        <activity
+            android:name=".admin.adminTenant"
+            android:exported="false" />
+        <activity
+            android:name=".user.userMaintenanceItem"
+            android:exported="false" />
+        <activity
+            android:name=".user.userProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.userMaintenanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".user.userPaymentHistoryPagerAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".user.userpayment_item"
+            android:exported="false" />
+        <activity
+            android:name=".user.userpayment_history"
+            android:exported="false" />
+        <activity
+            android:name=".adminDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

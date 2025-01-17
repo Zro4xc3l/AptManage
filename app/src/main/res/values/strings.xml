@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AptManage</string>
+
+    <string name="dashboard_overview">Dashboard Overview</string>
+    <string name="total_units">Total Units</string>
+    <string name="occupied_units">Occupied Units</string>
+    <string name="vacancy_rate">Vacancy Rate</string>
+    <string name="total_residents">Total Residents</string>
+    <string name="overdue_payments">Overdue Payments</string>
+
+    <string name="add_property">Add Property</string>
+    <string name="manage_tenants">Manage Tenants</string>
+    <string name="view_finances">View Finances</string>
+    <string name="view_maintenance">View Maintenance</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_tenants">Tenants</string>
+    <string name="title_payments">Payments</string>
+    <string name="title_units">Units</string>
+    <string name="title_maintenance">Maintenance</string>
+    <string name="title_settings">Settings</string>
+</resources>

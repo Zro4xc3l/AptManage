@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home_admin"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_tenants_admin"
+        android:icon="@drawable/ic_tenants"
+        android:title="@string/title_tenants" />
+    <item
+        android:id="@+id/navigation_payments_admin"
+        android:icon="@drawable/ic_payments"
+        android:title="@string/title_payments" />
+    <item
+        android:id="@+id/navigation_units_admin"
+        android:icon="@drawable/ic_units"
+        android:title="@string/title_units" />
+    <item
+        android:id="@+id/navigation_maintenance_admin"
+        android:icon="@drawable/ic_maintenance"
+        android:title="@string/title_maintenance" />
+
+</menu>
