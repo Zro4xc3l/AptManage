@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- App Name -->
     <string name="app_name">AptManage</string>
 
+    <!-- Dashboard Strings -->
     <string name="dashboard_overview">Dashboard Overview</string>
     <string name="total_units">Total Units</string>
     <string name="occupied_units">Occupied Units</string>
@@ -9,15 +12,61 @@
     <string name="total_residents">Total Residents</string>
     <string name="overdue_payments">Overdue Payments</string>
 
+    <!-- Main Actions -->
     <string name="add_property">Add Property</string>
     <string name="manage_tenants">Manage Tenants</string>
     <string name="view_finances">View Finances</string>
     <string name="view_maintenance">View Maintenance</string>
 
+    <!-- Section Titles -->
     <string name="title_home">Home</string>
     <string name="title_tenants">Tenants</string>
     <string name="title_payments">Payments</string>
     <string name="title_units">Units</string>
     <string name="title_maintenance">Maintenance</string>
     <string name="title_settings">Settings</string>
+
+    <!-- Filter / Requests -->
+    <string name="filter_button_desc">Filter Requests</string>
+    <string name="add_request">Add Request</string>
+
+    <!-- Payment Module -->
+    <string name="total_collected">Total Collected</string>
+    <string name="search_payments">Search Payments</string>
+
+    <!-- Tenant Module -->
+    <string name="tenants">Tenants</string>
+    <string name="tenant_management">Tenant Management</string>
+    <string name="search_hint_tenant">Search by Name/Unit/Email</string>
+    <string name="add_tenant">Add Tenant</string>
+    <string name="no_tenants_found">No tenants found.</string>
+
+    <!-- Settings Module -->
+    <string name="section_general">General</string>
+    <string name="section_app">App</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_about">About</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- Unit Module -->
+    <string name="search_hint_unit">Search by Unit Number/Building</string>
+    <string name="add_unit">Add Unit</string>
+    <string name="no_units_found">No units found.</string>
+
+    <string name="sort_by">Sort by</string>"
+    <string name="filter_occupancy">Filter by Occupancy</string>
+
+    <string-array name="occupancy_options">
+        <item>All</item>
+        <item>Occupied</item>
+        <item>Vacant</item>
+    </string-array>
+
+    <string-array name="sort_options">
+        <item>Unit Number</item>
+        <item>Usage (High to Low)</item>
+        <item>Usage (Low to High)</item>
+    </string-array>
+
 </resources>
